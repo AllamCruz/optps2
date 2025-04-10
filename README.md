@@ -29,7 +29,7 @@ OptmizeSX2/
 ## 🚀 Como Compilar
 ```bash
 # Clone o repositório
-$ git clone https://github.com/seu-usuario/OptmizeSX2.git
+$ git clone https://github.com/AllamCruz/OptmizeSX2.git
 $ cd OptmizeSX2
 
 # Abra no Android Studio e importe como projeto NDK/CMake
