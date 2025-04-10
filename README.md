@@ -36,38 +36,6 @@ $ cd OptmizeSX2
 # Ou use cmake + ninja para builds manuais
 ```
 
-## 🛠️ Arquivo .gitignore
-```gitignore
-# Compiled source
-*.class
-*.o
-*.so
-*.a
-*.out
-
-# Gradle
-.gradle/
-build/
-**/build/
-
-# Android Studio
-.idea/
-*.iml
-local.properties
-
-# Logs
-*.log
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake-build-*/
-
-# Misc
-*.apk
-*.keystore
-```
-
 ## 😎 Licença
 Este projeto é um fork/reimaginação baseado em códigos legados e referências do PCSX2 (GPLv2).
 Todos os créditos originais são mantidos aos respectivos autores.
