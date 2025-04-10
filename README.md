@@ -2,7 +2,7 @@
 
 # OptmizeSX2
 
-**OptmizeSX2** é um emulador de PlayStation 2 desenvolvido para Android com foco em desempenho máximo em dispositivos com chips Snapdragon (linha 7 Gen e 8 Gen).
+**OptmizeSX2** é um emulador de PlayStation 2 que estou desenvolvendo para Android com foco em desempenho máximo em dispositivos com chips Snapdragon (linha Gen 7 e Gen 8).
 
 ## 💡 Visão Geral
 - Emulação de alto desempenho com suporte JIT otimizado para ARM64/NEON
