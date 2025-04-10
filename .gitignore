@@ -1,0 +1,29 @@
+
+# Compiled source
+*.class
+*.o
+*.so
+*.a
+*.out
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Logs
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Misc
+*.apk
+*.keystore
