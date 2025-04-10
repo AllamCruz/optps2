@@ -1,4 +1,7 @@
 <!-- README inicial para o projeto OptmizeSX2 -->
+<p align="center">
+  <img src="assets/OptPS2.png" alt="Logo OptPS2" width="200"/>
+</p>
 
 # OptmizeSX2
 
