@@ -1,0 +1,100 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 10% 10%;
+    --foreground: 220 10% 98%;
+
+    --card: 220 10% 13%;
+    --card-foreground: 220 10% 98%;
+
+    --popover: 220 10% 13%;
+    --popover-foreground: 220 10% 98%;
+
+    --primary: 220 100% 60%;
+    --primary-foreground: 220 10% 98%;
+
+    --secondary: 220 10% 18%;
+    --secondary-foreground: 220 10% 98%;
+
+    --muted: 220 10% 18%;
+    --muted-foreground: 220 10% 70%;
+
+    --accent: 220 80% 50%;
+    --accent-foreground: 220 10% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 10% 22%;
+    --input: 220 10% 22%;
+    --ring: 220 100% 60%;
+
+    --radius: 0.5rem;
+
+    --ps-blue: 220 100% 60%;
+    --ps-light-blue: 220 100% 70%;
+    --snapdragon-red: 0 85% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes pulse-light {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-light {
+  animation: pulse-light 2s infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Custom PS2 controller button styles */
+.ps-button {
+  @apply relative flex items-center justify-center bg-slate-800 border border-slate-700
+         rounded-full shadow-inner text-white font-bold;
+}
+
+.ps-button-x {
+  @apply bg-blue-600 text-white;
+}
+
+.ps-button-circle {
+  @apply bg-red-500 text-white;
+}
+
+.ps-button-square {
+  @apply bg-pink-600 text-white;
+}
+
+.ps-button-triangle {
+  @apply bg-green-500 text-white;
+}
+
+.ps-dpad {
+  @apply bg-slate-800 border border-slate-700 rounded-md;
+}
+
+.controller-container {
+  touch-action: none;
+}
